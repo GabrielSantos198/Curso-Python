@@ -1,0 +1,7 @@
+print('')
+print('DESCUBRA O COMPRIMENTO DA HIPOTENUSA DO TRIÂNGULO RETÂNGULO')
+print('')
+l1 = float(input('Qual o comprimento do cateto Oposto? '))
+l2 = float(input('Qual o comprimento do cateto adjacente? '))
+resultado = ((l1**2) + (l2**2))**(1/2)
+print('O comprimento da hipotenusa é {:.1f}'.format(resultado))
